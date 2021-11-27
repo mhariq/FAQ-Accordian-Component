@@ -39,13 +39,14 @@ html {
 
 .container {
   padding: 3rem;
-  margin: 10% auto;
+  margin: 0 auto;
   max-width: 112rem;
 }
 
 body {
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  /* /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  height: 100vh;
   /* background-position: top -50rem left -24rem, right -24rem bottom -50rem; */
   font-family: "Kumbh Sans", sans-serif;
   line-height: 1;
@@ -87,7 +88,7 @@ body {
 
 .faq-box {
   padding: 6rem;
-  margin-bottom: 2.4rem;
+  /* margin-bottom: 2.4rem; */
   margin-right: 4rem;
 }
 
